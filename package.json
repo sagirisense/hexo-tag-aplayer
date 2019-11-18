@@ -29,7 +29,7 @@
     "hexo-fs": "^0.2.0",
     "hexo-log": "^0.2.0",
     "hexo-util": "^0.1.7",
-    "meting": "^1.2.0"
+    "meting": "^2.0.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

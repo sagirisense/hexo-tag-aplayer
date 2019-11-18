@@ -66,11 +66,11 @@ export default class MetingTag extends BaseTag {
   generate() {
     let settingLiteral = ''
     Object.entries(this.settings).forEach(([key, value]) => {
-      settingLiteral += ` data-${key}="${value}"`
+      settingLiteral += ` ${key}="${value}"`
     })
     return `
-    <div id="${this.id}" class="aplayer ${APLAYER_TAG_MARKER} ${METING_TAG_MARKER}"
+    <meting-js  class="aplayer ${APLAYER_TAG_MARKER} ${METING_TAG_MARKER}"
         ${settingLiteral}
-    ></div>`
+    ></meting-js>`
   }
 }
